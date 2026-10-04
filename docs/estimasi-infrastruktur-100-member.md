@@ -72,11 +72,13 @@ Biaya transaksi DOKU tidak termasuk karena mengikuti perjanjian merchant. Landin
 
 ## Skenario Pemakaian
 
-| Skenario | Jam Tonton | Delivery Video | Biaya Video (klien) | Tanggungan Kami |
-| --- | ---: | ---: | ---: | ---: |
-| Rendah | 200 jam | 240 GB | Rp135.000–Rp145.000 | Rp439.000–Rp529.000 |
-| Normal | 400 jam | 480 GB | Rp265.000–Rp272.000 | Rp439.000–Rp529.000 |
-| Tinggi | 800 jam | 960 GB | Rp520.000–Rp540.000 | Rp439.000–Rp529.000 |
+| Skenario | Member Aktif (perkiraan) | Jam Tonton | Delivery Video | Biaya Video (klien) | Tanggungan Kami |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Rendah | 25–35 member | 200 jam | 240 GB | Rp135.000–Rp145.000 | Rp439.000–Rp529.000 |
+| Normal | 50–70 member | 400 jam | 480 GB | Rp265.000–Rp272.000 | Rp439.000–Rp529.000 |
+| Tinggi | 100 member | 800 jam | 960 GB | Rp520.000–Rp540.000 | Rp439.000–Rp529.000 |
+
+Perkiraan member aktif mengasumsikan rata-rata 6–8 jam tonton per member per bulan; skenario Tinggi berarti seluruh 100 akun aktif dan menonton sekitar 8 jam/bulan.
 
 ## Managed Service
 

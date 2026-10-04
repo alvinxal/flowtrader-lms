@@ -32,12 +32,26 @@ Estimasi pengerjaan **4–8 minggu** tergantung kelengkapan materi video dan kec
 
 Penyiapan server dan sistem ada di Modul 14 (sekali bayar). Managed Service di bawah adalah biaya operasional bulanan setelah platform live. VPS ditanggung kami di kedua paket. Biaya video streaming selalu ditanggung klien dan ditagih terpisah.
 
-| Paket | Yang Anda Dapat | Batas Wajar | Harga |
-| --- | --- | --- | ---: |
-| **Managed Basic** | Server aplikasi + database, SSL & domain, monitoring uptime & resource, backup database mingguan, update keamanan, perbaikan bug fitur yang sudah ada, bantuan akses member, laporan sistem bulanan | 3x bantuan ringan/bulan, respon maksimal 1 hari kerja, dukungan hari & jam kerja | **Rp1.000.000/bulan** |
-| **Managed Plus** | Semua di Basic, plus backup harian, monitoring transaksi, bantuan kelola data member, update paket/harga/promo/notifikasi, input materi ringan, laporan sistem & transaksi bulanan, prioritas penanganan | 8x bantuan ringan/bulan, maksimal 5 materi/bulan, respon 4–8 jam kerja, dukungan hari & jam kerja | **Rp1.500.000/bulan** |
+| Paket Layanan | Managed Basic | Managed Plus |
+| --- | --- | --- |
+| Server aplikasi + database | ✓ | ✓ |
+| SSL & domain | ✓ | ✓ |
+| Monitoring uptime & resource | ✓ | ✓ |
+| Update keamanan | ✓ | ✓ |
+| Perbaikan bug fitur yang sudah ada | ✓ | ✓ |
+| Bantuan kendala akses member (login, akses paket belum terbuka) | ✓ | ✓ |
+| Backup | Database mingguan | Harian |
+| Monitoring transaksi | - | ✓ |
+| Bantuan kelola data member (koreksi data profil, akun ganda, beri/cabut akses manual) | - | ✓ |
+| Update paket/harga/promo/notifikasi | - | ✓ |
+| Laporan bulanan | Sistem | Sistem & transaksi |
+| Prioritas penanganan | - | ✓ |
+| Bantuan ringan | 3x/bulan | 8x/bulan |
+| Waktu respon | Maksimal 1 hari kerja | 4–8 jam kerja |
+| Jam dukungan | Hari & jam kerja | Hari & jam kerja |
+| **Harga** | **Rp1.000.000/bulan** | **Rp1.500.000/bulan** |
 
-**Rekomendasi untuk Flow Trader: Managed Plus** — lebih aman untuk transaksi harian dan update materi.
+**Rekomendasi untuk Flow Trader: Managed Plus** — lebih aman untuk transaksi harian dan pengelolaan data member.
 
 ### Termasuk di Managed Service
 
@@ -50,9 +64,17 @@ Jika pemakaian melebihi kapasitas (storage, member, atau bandwidth), upgrade ser
 
 ### Contoh Bantuan Ringan
 
-Ganti harga/deskripsi paket, ganti link komunitas, ubah teks/gambar, atur popup promo dan notifikasi, bantu kendala akses member, penyesuaian kecil tampilan, upload materi (sesuai kuota Plus).
+Ganti harga/deskripsi paket, ganti link komunitas, ubah teks/gambar, atur popup promo dan notifikasi, bantu kendala akses member, penyesuaian kecil tampilan.
 
 ## Belum Termasuk
+
+### Infrastruktur
+
+- Biaya video streaming (Bunny Stream) mengikuti pemakaian: pemakaian normal sekitar **Rp265.000–Rp272.000/bulan** (kira-kira 50–70 member aktif yang menonton rata-rata 6–8 jam/bulan), selalu ditanggung klien. Akun Bunny Stream dibuat atas nama klien sejak awal, jadi tagihannya langsung ke klien tanpa lewat kami
+- Biaya pihak ketiga: domain, payment gateway (DOKU untuk LMS dan Mayar untuk landing page), email transaksional
+- Upgrade server bila pemakaian melebihi kapasitas (storage, member, atau bandwidth), didiskusikan terpisah
+
+### Selain Infrastruktur
 
 - Fitur atau modul baru di luar daftar di atas
 - Desain ulang atau perubahan alur besar
@@ -60,8 +82,6 @@ Ganti harga/deskripsi paket, ganti link komunitas, ubah teks/gambar, atur popup 
 - Migrasi data dalam jumlah besar
 - Aplikasi Android/iOS
 - Sinkronisasi role Discord otomatis
-- Biaya pihak ketiga: domain, payment gateway (DOKU untuk LMS dan Mayar untuk landing page), email transaksional
-- Biaya video streaming (Bunny Stream) mengikuti pemakaian: pemakaian normal sekitar **Rp265.000–Rp272.000/bulan**, selalu ditanggung klien. Akun Bunny Stream dibuat atas nama klien sejak awal, jadi tagihannya langsung ke klien tanpa lewat kami
 
 Pekerjaan di luar kuota: **Rp150.000 per jam** setelah ada persetujuan.
 
