@@ -1,0 +1,130 @@
+<mxfile host="65bd71144e">
+    <diagram name="Alur Pengguna" id="userflow">
+        <mxGraphModel dx="2860" dy="3320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="1200" math="0" shadow="0">
+            <root>
+                <mxCell id="0" />
+                <mxCell id="1" parent="0" />
+                <mxCell id="rJ3SmEDjrcrrMQMZXsFY-1" connectable="0" parent="1" style="group" value="" vertex="1">
+                    <mxGeometry height="1110" width="2600" x="40" y="10" as="geometry" />
+                </mxCell>
+                <mxCell id="c3" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="text;html=1;fontSize=20;align=left;verticalAlign=middle;container=0;" value="&lt;b&gt;Alur Pengguna: Platform Kelas Flow Trader (bercabang)&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="36" width="900" as="geometry" />
+                </mxCell>
+                <mxCell id="c4" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="text;html=1;fontSize=14;align=left;container=0;" value="&lt;b&gt;Alur member&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="24" width="700" y="50" as="geometry" />
+                </mxCell>
+                <mxCell id="c5" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;spacingLeft=6;spacingRight=6;container=0;" value="&lt;b&gt;Lihat paket&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Halaman paket dan detailnya&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="90" width="180" y="90" as="geometry" />
+                </mxCell>
+                <mxCell id="c6" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;spacingLeft=6;spacingRight=6;container=0;" value="&lt;b&gt;Daftar / login&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Daftar dan masuk platform, Form pendaftaran (manual atau Google)&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="90" width="180" x="220" y="90" as="geometry" />
+                </mxCell>
+                <mxCell id="c7" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;container=0;" value="&lt;b&gt;Sudah punya paket Basic/Mastery?&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="120" width="180" x="440" y="75" as="geometry" />
+                </mxCell>
+                <mxCell id="c8" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingRight=6;container=0;" value="&lt;b&gt;Akses member panel ditolak&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Pembatasan akses member panel&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="90" width="180" x="440" y="305" as="geometry" />
+                </mxCell>
+                <mxCell id="c9" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingRight=6;container=0;" value="&lt;b&gt;Pilih paket Basic / Mastery&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Halaman paket dan detailnya&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="90" width="180" x="660" y="305" as="geometry" />
+                </mxCell>
+                <mxCell id="c10" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingRight=6;container=0;" value="&lt;b&gt;Checkout&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Checkout Payment Gateway&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="90" width="180" x="880" y="305" as="geometry" />
+                </mxCell>
+                <mxCell id="c11" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingRight=6;container=0;" value="&lt;b&gt;Email konfirmasi + link akses&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Email konfirmasi pembayaran + link akses platform&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="90" width="180" x="1100" y="305" as="geometry" />
+                </mxCell>
+                <mxCell id="c12" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;spacingLeft=6;spacingRight=6;container=0;" value="&lt;b&gt;Masuk member panel&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Pembatasan akses member panel&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="90" width="180" x="1320" y="90" as="geometry" />
+                </mxCell>
+                <mxCell id="c13" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;spacingLeft=6;spacingRight=6;container=0;" value="&lt;b&gt;Lihat paket saya dan list kelas&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Paket saya dan riwayat pembelian&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="90" width="180" x="1540" y="90" as="geometry" />
+                </mxCell>
+                <mxCell id="c14" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;spacingLeft=6;spacingRight=6;container=0;" value="&lt;b&gt;Masuk Discord lewat link&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Link join Discord/Slack/Telegram, Notifikasi Platform&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="90" width="180" x="1760" y="90" as="geometry" />
+                </mxCell>
+                <mxCell id="c15" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;spacingLeft=6;spacingRight=6;container=0;" value="&lt;b&gt;Belajar&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Halaman utama pembelajaran, Streaming, Temporary URL, Watermark, Video terakhir diakses&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="90" width="180" x="1980" y="90" as="geometry" />
+                </mxCell>
+                <mxCell id="c16" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;container=0;" value="&lt;b&gt;Paket Basic dan buka modul Mastery?&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="120" width="180" x="2200" y="75" as="geometry" />
+                </mxCell>
+                <mxCell id="c17" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingRight=6;container=0;" value="&lt;b&gt;Dapat sertifikat&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Sertifikat&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="90" width="180" x="2640" y="90" as="geometry" />
+                </mxCell>
+                <mxCell id="c18" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;spacingLeft=6;spacingRight=6;container=0;" value="&lt;b&gt;Modul Mastery terkunci (blur/lock)&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Modul terkunci untuk paket Basic&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="90" width="180" x="2200" y="305" as="geometry" />
+                </mxCell>
+                <mxCell id="c19" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingRight=6;container=0;" value="&lt;b&gt;Bayar upgrade ke Mastery&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Upgrade: paket Basic → paket Mastery, Checkout Payment Gateway&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="90" width="180" x="2200" y="480" as="geometry" />
+                </mxCell>
+                <mxCell id="c20" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="c5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" target="c6" value="">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="c21" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="c6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" target="c7" value="">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="c22" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="c7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="c8" value="Tidak">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="c23" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="c8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" target="c9" value="">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="c24" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="c9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" target="c10" value="">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="c25" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="c10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" target="c11" value="">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="c26" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="welcome" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="c12" value="">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="c27" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="c7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="c12" value="Ya">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="c28" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="c12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" target="c13" value="">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="c29" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="c13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" target="c14" value="">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="c30" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="c14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" target="c15" value="">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="c31" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="c15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" target="c16" value="">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="c32" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="c16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="d3" value="Tidak">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="c33" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="c16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="c18" value="Ya">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="c34" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="c18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" target="c19" value="">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="c35" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="c19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;exitX=0;exitY=0.5;entryX=0.5;entryY=1;dashed=1;" target="c15" value="Setelah bayar, modul terbuka">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="c36" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="text;html=1;fontSize=14;align=left;container=0;" value="&lt;b&gt;Alur owner (admin Flow Trader)&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="24" width="700" y="620" as="geometry" />
+                </mxCell>
+                <mxCell id="welcome" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingRight=6;container=0;" value="&lt;b&gt;Welcome screen&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Welcome screen setelah membeli paket&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="90" width="180" x="1320" y="305" as="geometry" />
+                </mxCell>
+                <mxCell id="e_welcome" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="c11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" target="welcome" value="">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+            <mxCell id="d3" parent="rJ3SmEDjrcrrMQMZXsFY-1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;container=0;" value="&lt;b&gt;Sudah selesai belajar?&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="120" width="180" x="2420" y="75" as="geometry" />
+                </mxCell>
+                <mxCell id="e_d3_ser" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="d3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="c17" value="Ya">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e_d3_bel" edge="1" parent="rJ3SmEDjrcrrMQMZXsFY-1" source="d3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;exitX=0.5;exitY=0;entryX=0.5;entryY=0;dashed=1;" target="c15" value="Tidak, lanjut belajar">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="p200" value="&lt;b&gt;Login admin&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Daftar dan masuk platform&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingRight=6;container=0;" vertex="1" parent="1"><mxGeometry x="40" y="660" width="180" height="90" as="geometry" /></mxCell><mxCell id="p201" value="&lt;b&gt;Atur paket Basic &amp;amp; Mastery&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Kelola paket, kelas, video, dan harga&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingRight=6;container=0;" vertex="1" parent="1"><mxGeometry x="260" y="660" width="180" height="90" as="geometry" /></mxCell><mxCell id="p202" value="&lt;b&gt;Isi kelas &amp;amp; unggah video&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Kelola paket, kelas, video, dan harga&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingRight=6;container=0;" vertex="1" parent="1"><mxGeometry x="480" y="660" width="180" height="90" as="geometry" /></mxCell><mxCell id="p203" value="&lt;b&gt;Atur modul terkunci&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Modul terkunci (blur/lock) untuk paket Basic&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingRight=6;container=0;dashed=1;" vertex="1" parent="1"><mxGeometry x="700" y="660" width="180" height="90" as="geometry" /></mxCell><mxCell id="p204" value="&lt;b&gt;Atur sertifikat&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Kelola template sertifikat&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingRight=6;container=0;" vertex="1" parent="1"><mxGeometry x="920" y="660" width="180" height="90" as="geometry" /></mxCell><mxCell id="p205" value="&lt;b&gt;Atur link komunitas&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Kelola link komunitas (Discord/Slack/Telegram)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingRight=6;container=0;" vertex="1" parent="1"><mxGeometry x="1140" y="660" width="180" height="90" as="geometry" /></mxCell><mxCell id="p206" value="&lt;b&gt;Publikasi paket&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Halaman paket dan detailnya&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingRight=6;container=0;" vertex="1" parent="1"><mxGeometry x="1360" y="660" width="180" height="90" as="geometry" /></mxCell><mxCell id="p207" value="&lt;b&gt;Atur popup promo&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Popup promo&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingRight=6;container=0;dashed=1;" vertex="1" parent="1"><mxGeometry x="1580" y="660" width="180" height="90" as="geometry" /></mxCell><mxCell id="p208" value="&lt;b&gt;Kirim notifikasi ke member&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Kelola notifikasi platform (admin)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingRight=6;container=0;" vertex="1" parent="1"><mxGeometry x="1800" y="660" width="180" height="90" as="geometry" /></mxCell><mxCell id="p209" value="&lt;b&gt;Pantau pembelian &amp;amp; penjualan&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Daftar member dan pembelian, Ringkasan penjualan&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingRight=6;container=0;" vertex="1" parent="1"><mxGeometry x="2020" y="660" width="180" height="90" as="geometry" /></mxCell><mxCell id="p210" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" edge="1" parent="1" source="p200" target="p201"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="p211" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" edge="1" parent="1" source="p201" target="p202"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="p212" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" edge="1" parent="1" source="p202" target="p203"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="p213" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" edge="1" parent="1" source="p203" target="p204"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="p214" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" edge="1" parent="1" source="p204" target="p205"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="p215" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" edge="1" parent="1" source="p205" target="p206"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="p216" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" edge="1" parent="1" source="p206" target="p207"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="p217" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" edge="1" parent="1" source="p207" target="p208"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="p218" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" edge="1" parent="1" source="p208" target="p209"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="p219" value="&lt;b&gt;Ada masalah akses member?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;container=0;" vertex="1" parent="1"><mxGeometry x="2240" y="645" width="180" height="120" as="geometry" /></mxCell><mxCell id="p220" value="&lt;b&gt;Ekspor data pembeli&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Ekspor CSV/Excel&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingRight=6;container=0;" vertex="1" parent="1"><mxGeometry x="2460" y="660" width="180" height="90" as="geometry" /></mxCell><mxCell id="p221" value="&lt;b&gt;Beri / cabut akses&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:10px;color:#555555'&gt;Beri/cabut akses&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingRight=6;container=0;" vertex="1" parent="1"><mxGeometry x="2240" y="860" width="180" height="90" as="geometry" /></mxCell><mxCell id="p222" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" edge="1" parent="1" source="p209" target="p219"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="p223" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="p219" target="p220"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="p224" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="p219" target="p221"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="p225" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;exitX=1;exitY=0.5;entryX=0.5;entryY=1;" edge="1" parent="1" source="p221" target="p220"><mxGeometry relative="1" as="geometry" /></mxCell></root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
