@@ -2,32 +2,35 @@
 
 > **Total proyek: Rp14.500.000 (sekali bayar). Pengerjaan 4–8 minggu setelah brief dan materi siap.**
 
-Platform LMS untuk 2 paket — **Flow Basic** dan **Flow Trader Mastery**. Video seumur hidup, akses Discord 1 bulan untuk Basic dan 3 bulan untuk Mastery, lengkap dengan checkout, progres belajar, sertifikat, dan panel admin. Harga di bawah adalah total proyek, bukan harga satuan jika modul dikerjakan terpisah.
+Platform LMS untuk 3 tier — **Free**, **Flow Basic**, dan **Flow Trader Mastery**. Video seumur hidup untuk paket berbayar, akses Discord berbatas waktu sesuai kebijakan, lengkap dengan checkout, progres belajar, sertifikat, dan panel admin. Harga di bawah adalah total proyek, bukan harga satuan jika modul dikerjakan terpisah.
 
 ## Daftar Modul
 
 | No. | Modul | Ruang Lingkup | Harga |
 | ---: | --- | --- | ---: |
-| 1 | Katalog dan Penawaran Paket | Halaman publik Basic & Mastery, detail manfaat dan kurikulum, harga dan tombol beli, pengaturan paket tayang/tidak tayang | Rp800.000 |
-| 2 | Autentikasi dan Profil | Daftar dan login manual serta login Google, profil (nama, email, no HP, akun Discord), lupa password, pengaturan sesi, akun gratis (bisa login tanpa akses materi), hak akses member dan admin | Rp1.100.000 |
-| 3 | Checkout, Pembayaran, dan Pesanan | Checkout via DOKU, pencatatan pesanan dan status transaksi, akses aktif otomatis setelah bayar, email konfirmasi + link ke platform | Rp1.500.000 |
-| 4 | Membership dan Hak Akses | Cek akses member panel, akun gratis terkunci dari materi dan link Discord, halaman Paket Saya dan riwayat pembelian, video seumur hidup, atur/buka-tutup akses oleh admin, materi Mastery terkunci untuk Basic, upgrade Basic ke Mastery | Rp1.200.000 |
-| 5 | LMS dan Progres Belajar | Dashboard belajar, struktur paket → kelas → bab → video, navigasi materi, progres dan status selesai, lanjut dari video terakhir | Rp1.500.000 |
-| 6 | Video Aman | Video streaming aman anti-download, link sementara yang kedaluwarsa, akses sesuai paket, watermark nama member di player | Rp1.700.000 |
+| 1 | Katalog dan Penawaran Paket | Halaman publik Free, Basic & Mastery, detail manfaat dan kurikulum, harga dan tombol beli, pengaturan paket tayang/tidak tayang | Rp700.000 |
+| 2 | Autentikasi dan Profil | Daftar dan login manual serta login Google, profil (nama, email, no HP, akun Discord), lupa password, pengaturan sesi, Free Plan (bisa login dan melihat kurikulum terkunci), hak akses member dan admin | Rp1.100.000 |
+| 3 | Checkout, Pembayaran, dan Pesanan | Checkout via DOKU, pencatatan pesanan dan status transaksi, akses aktif otomatis setelah bayar, email konfirmasi + link ke platform | Rp1.400.000 |
+| 4 | Membership dan Hak Akses | Cek akses member panel, Free terkunci dari materi dan link Discord dengan prompt upgrade, halaman Paket Saya dan riwayat pembelian, video seumur hidup, atur/buka-tutup akses oleh admin, materi Mastery terkunci untuk Basic, upgrade Free ke Basic/Mastery dan Basic ke Mastery | Rp1.200.000 |
+| 5 | LMS dan Progres Belajar | Dashboard belajar, struktur paket → kelas → bab → video, navigasi materi, progres dan status selesai, lanjut dari video terakhir | Rp1.400.000 |
+| 6 | Video Aman | Video streaming aman anti-download, link sementara yang kedaluwarsa, akses sesuai paket, watermark nama member di player | Rp1.500.000 |
 | 7 | Sertifikat Digital | Sertifikat terbit otomatis setelah semua materi selesai, tercantum nama member dan paket, nomor sertifikat, bisa diunduh, template diatur admin | Rp700.000 |
-| 8 | Komunitas dan Masa Berlaku | Pengaturan link Discord, link hanya muncul untuk member paket aktif, pelacakan masa berlaku akses komunitas (1 bulan Basic, 3 bulan Mastery) | Rp700.000 |
+| 8 | Komunitas dan Masa Berlaku | Pengaturan link Discord, link hanya muncul untuk member paket aktif, pelacakan masa berlaku akses sesuai kebijakan | Rp700.000 |
 | 9 | Notifikasi dan Onboarding | Welcome screen setelah pembelian, notifikasi di dalam platform, pusat notifikasi dengan status baca/belum, admin bisa buat dan kirim notifikasi | Rp700.000 |
-| 10 | Admin Konten dan Produk | Atur paket dan harga, kelola kelas/bab/video dan urutannya, atur tayang/tidak tayang, atur materi terkunci, kelola link komunitas dan template sertifikat | Rp1.500.000 |
-| 11 | Admin Member dan Transaksi | Daftar dan cari member, lihat kepemilikan paket, daftar pembelian dan status transaksi, beri/cabut akses, filter data, ekspor CSV/Excel | Rp1.200.000 |
+| 10 | Admin Konten dan Produk | Atur paket dan harga, kelola kelas/bab/video dan urutannya, atur tayang/tidak tayang, atur materi terkunci, kelola link komunitas dan template sertifikat | Rp1.400.000 |
+| 11 | Admin Member dan Transaksi | Daftar dan cari member, lihat kepemilikan paket, daftar pembelian dan status transaksi, beri/cabut akses, filter data, ekspor CSV/Excel | Rp1.100.000 |
 | 12 | Promosi dan Ringkasan Penjualan | Atur popup promo dan jadwal tayangnya, ringkasan jumlah transaksi dan omzet per paket, filter laporan per periode | Rp700.000 |
-| 13 | Setup, Keamanan, dan Pengujian | Setup database dan API, konfigurasi aplikasi dan environment, keamanan dasar dan validasi input, audit log, penanganan error, testing alur utama, deployment dan dokumentasi | Rp1.200.000 |
-|  | **Total 13 modul — sudah mencakup semua fitur MVP** |  | **Rp14.500.000** |
+| 13 | Setup Aplikasi, Keamanan, dan Pengujian | Setup database dan API, konfigurasi aplikasi dan environment, keamanan dasar dan validasi input, audit log, penanganan error, testing alur utama, dokumentasi | Rp900.000 |
+| 14 | Infrastruktur dan Deployment | Server Biznet Gio NEO Lite (4 CPU, 8 GB RAM, 60 GB SSD), setup seluruh aplikasi di server dengan Docker, domain + SSL + Cloudflare, database PostgreSQL + Redis, backup ke Cloudflare R2, monitoring uptime dan error tracking | Rp1.000.000 |
+|  | **Total 14 modul — sudah mencakup semua fitur MVP** |  | **Rp14.500.000** |
+
+VPS development gratis 1 bulan pertama (ditanggung kami). Setelah platform live, VPS ditanggung kami bila memakai managed service, atau ditanggung klien bila tidak.
 
 Estimasi pengerjaan **4–8 minggu** tergantung kelengkapan materi video dan kecepatan feedback.
 
 ## Paket Managed Service (Opsional, Setelah Launch)
 
-Biaya bulanan setelah platform live. Server aplikasi sudah termasuk di kedua paket.
+Penyiapan server dan sistem ada di Modul 14 (sekali bayar). Managed Service di bawah adalah biaya operasional bulanan setelah platform live. VPS ditanggung kami di kedua paket. Biaya video streaming selalu ditanggung klien dan ditagih terpisah.
 
 | Paket | Yang Anda Dapat | Batas Wajar | Harga |
 | --- | --- | --- | ---: |
@@ -57,8 +60,8 @@ Ganti harga/deskripsi paket, ganti link komunitas, ubah teks/gambar, atur popup 
 - Migrasi data dalam jumlah besar
 - Aplikasi Android/iOS
 - Sinkronisasi role Discord otomatis
-- Biaya pihak ketiga: domain, payment gateway (DOKU untuk LMS dan Mayar untuk landing page), email transaksional, serta penyimpanan & bandwidth video/CDN
-- Kelebihan pemakaian video di luar kuota paket (ditagih sesuai pemakaian)
+- Biaya pihak ketiga: domain, payment gateway (DOKU untuk LMS dan Mayar untuk landing page), email transaksional
+- Biaya video streaming (Bunny Stream) mengikuti pemakaian: pemakaian normal sekitar **Rp265.000–Rp272.000/bulan**, selalu ditanggung klien. Akun Bunny Stream dibuat atas nama klien sejak awal, jadi tagihannya langsung ke klien tanpa lewat kami
 
 Pekerjaan di luar kuota: **Rp150.000 per jam** setelah ada persetujuan.
 

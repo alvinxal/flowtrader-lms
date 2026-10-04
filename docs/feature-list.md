@@ -14,12 +14,12 @@ Dijual per paket, bukan per kelas. Hanya ada 2 paket: Basic dan Mastery.
 ### 2. Membership
 - Daftar dan masuk platform (manual atau Google)
 - Form pendaftaran: manual (nama, email, password, no HP, akun Discord) atau Google (nama, no HP, akun Discord)
-- Akun gratis: bisa daftar dan login, tetapi tidak bisa mengakses materi dan tidak mendapat link Discord
+- Free Plan: bisa daftar dan login, melihat daftar materi dan kurikulum, tetapi semua materi terkunci. Klik materi menampilkan prompt upgrade ke Basic atau Mastery. Free tidak mendapat link Discord
 - Welcome screen setelah membeli paket
-- Pembatasan akses member panel (hanya pemilik paket Basic/Mastery)
+- Pembatasan akses member panel: Free (semua materi terkunci), Basic (materi Mastery terkunci), Mastery (semua terbuka)
 - Paket saya dan riwayat pembelian
 - Modul terkunci (blur/lock) untuk paket Basic
-- Upgrade: paket Basic → paket Mastery
+- Upgrade: Free → Basic/Mastery, Basic → Mastery
 - Halaman utama pembelajaran
 - Sertifikat
 - Video terakhir diakses
@@ -58,14 +58,14 @@ Dijual per paket, bukan per kelas. Hanya ada 2 paket: Basic dan Mastery.
 <tr><td colspan="3" align="center"><b>Membership</b></td></tr>
 <tr><td>Daftar dan masuk platform (manual atau Google)</td><td align="center">✓</td><td></td></tr>
 <tr><td>Form pendaftaran: manual (nama, email, password, no HP, akun Discord) atau Google (nama, no HP, akun Discord)</td><td align="center">✓</td><td></td></tr>
-<tr><td>Akun gratis: bisa daftar dan login, tetapi tidak bisa mengakses materi dan tidak mendapat link Discord</td><td align="center">✓</td><td></td></tr>
+<tr><td>Free Plan: bisa daftar dan login, melihat daftar materi dan kurikulum, tetapi semua materi terkunci. Klik materi menampilkan prompt upgrade ke Basic atau Mastery. Free tidak mendapat link Discord</td><td align="center">✓</td><td></td></tr>
 <tr><td>Welcome screen setelah membeli paket</td><td></td><td align="center">✓</td></tr>
-<tr><td>Pembatasan akses member panel (hanya pemilik paket Basic/Mastery)</td><td align="center">✓</td><td></td></tr>
+<tr><td>Pembatasan akses member panel: Free (semua materi terkunci), Basic (materi Mastery terkunci), Mastery (semua terbuka)</td><td align="center">✓</td><td></td></tr>
 <tr><td>Paket saya dan riwayat pembelian</td><td align="center">✓</td><td></td></tr>
 <tr><td>Halaman utama pembelajaran</td><td align="center">✓</td><td></td></tr>
 <tr><td>Sertifikat</td><td align="center">✓</td><td></td></tr>
 <tr><td>Modul terkunci (blur/lock) untuk paket Basic</td><td></td><td align="center">✓</td></tr>
-<tr><td>Upgrade: paket Basic → paket Mastery</td><td></td><td align="center">✓</td></tr>
+<tr><td>Upgrade: Free → Basic/Mastery, Basic → Mastery</td><td></td><td align="center">✓</td></tr>
 <tr><td>Video terakhir diakses</td><td></td><td align="center">✓</td></tr>
 <tr><td colspan="3" align="center"><b>Digital Rights Management (DRM) Video</b></td></tr>
 <tr><td>Streaming Management</td><td align="center">✓</td><td></td></tr>

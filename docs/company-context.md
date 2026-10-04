@@ -101,11 +101,14 @@ Dua sistem pembayaran berarti dua rekonsiliasi. Perlu konfirmasi client: paket d
 
 ## Implikasi untuk LMS
 
-- Dua paket dengan kurikulum 5 dan 9 bab, harga Rp 1.997.000 dan Rp 2.997.000.
-- Video seumur hidup, Discord berbatas 1 bulan untuk Basic dan 3 bulan untuk Mastery, jadi perlu pelacakan masa berlaku.
-- Fitur relevan: progres per bab, upgrade Basic ke Mastery, dan sinkronisasi role Discord.
+- Tiga tier: Free (Rp0, login + lihat kurikulum terkunci), Basic (Rp1.997.000, 5 bab), Mastery (Rp2.997.000, 9 bab).
+- Video seumur hidup. Discord berbatas waktu sesuai kebijakan owner — pelacakan masa berlaku sudah masuk scope Modul 8.
+- Fitur relevan: progres per bab, upgrade Free ke Basic atau Mastery, upgrade Basic ke Mastery, dan sinkronisasi role Discord.
 - Istilah FlowStocks dan FlowRunning harus konsisten dipakai di tampilan LMS.
-- **Akun gratis:** landing page punya CTA "Akses Free Komunitas". Keputusan proyek: akun gratis bisa daftar dan login, tetapi tidak bisa mengakses materi dan tidak mendapat link Discord. Perannya hanya sebagai akun kosong untuk upsell.
+- **Akun gratis (Free Plan):** landing page punya CTA "Akses Free Komunitas". Keputusan proyek: Free bisa daftar dan login, melihat daftar materi dan kurikulum, tetapi semua materi terkunci. Klik materi menampilkan prompt upgrade ke Basic atau Mastery. Free tidak mendapat link Discord.
+- **Durasi Discord belum final:** landing page menampilkan 1 bulan (Basic) dan 3 bulan (Mastery), sedangkan dokumen lama menyebut 3 dan 6 bulan. Selisih ini perlu dikonfirmasi langsung ke owner sebelum development. Sampai ada keputusan, dokumen untuk client memakai kalimat netral tanpa angka.
+- Terminologi di situs memakai kata "free membership" untuk akses Discord berbatas. LMS memakai istilah "Akses Discord" agar tidak rancu dengan Free Plan.
+- CTA landing page dikecualikan dari scope sekarang. Perbaikannya urusan marketing client, bukan development.
 - Dua sistem pembayaran harus diselesaikan sebelum development dimulai.
 
 _Analisis ulang 4 Oktober 2026._

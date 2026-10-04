@@ -10,7 +10,8 @@
 | Pengguna bersamaan | 5–10; lonjakan maksimal 15 |
 | VPS | Biznet Gio NEO Lite MM 8.4 |
 | Video | Bunny Stream Standard Asia |
-| Biaya normal | **Rp704.000–Rp801.000/bulan** |
+| Biaya normal (tanggungan kami) | **Rp439.000–Rp529.000/bulan** |
+| Biaya video (tanggungan klien) | **±Rp265.000–Rp272.000/bulan** |
 
 Kurs acuan: **Rp17.898/USD**, berdasarkan JISDOR Bank Indonesia tanggal 2 Oktober 2026 (hari kerja terakhir).
 
@@ -53,36 +54,38 @@ Bunny Stream dipilih karena lebih ekonomis. Watermark identitas pengguna dibuat 
 
 ## Biaya Bulanan Normal
 
-| Komponen | Estimasi |
-| --- | ---: |
-| VPS Biznet Gio | Rp269.000 |
-| Snapshot VPS | Rp90.000 |
-| Bunny Stream | Rp269.000 |
-| Backup R2 | Rp0–Rp10.000 |
-| Email | Rp0 |
-| Cloudflare | Rp0 |
-| Domain | Rp10.000–Rp25.000 |
-| Cadangan kurs/pemakaian | Rp70.000–Rp135.000 |
-| **Total** | **Rp704.000–Rp801.000/bulan** |
+Biaya video streaming selalu ditanggung klien dan ditagih terpisah dari managed service. Akun Bunny Stream dibuat atas nama klien sejak awal.
+
+| Komponen | Estimasi | Ditanggung |
+| --- | --- | --- |
+| VPS Biznet Gio | Rp269.000 | Kami (lewat managed service) |
+| Snapshot VPS | Rp90.000 | Kami (lewat managed service) |
+| Backup R2 | Rp0–Rp10.000 | Kami (lewat managed service) |
+| Email | Rp0 | Kami (lewat managed service) |
+| Cloudflare | Rp0 | Kami (lewat managed service) |
+| Domain | Rp10.000–Rp25.000 | Kami (lewat managed service) |
+| Cadangan kurs/pemakaian | Rp70.000–Rp100.000 | Kami (lewat managed service) |
+| **Total tanggungan kami** | **Rp439.000–Rp529.000/bulan** |  |
+| Bunny Stream (video) | ±Rp265.000–Rp272.000 | **Klien, tagihan langsung** |
 
 Biaya transaksi DOKU tidak termasuk karena mengikuti perjanjian merchant. Landing page saat ini memakai Mayar, jadi biaya transaksi dari kanal Mayar juga di luar estimasi ini.
 
 ## Skenario Pemakaian
 
-| Skenario | Jam Tonton | Delivery Video | Total Infrastruktur |
-| --- | ---: | ---: | ---: |
-| Rendah | 200 jam | 240 GB | Rp525.000–Rp675.000 |
-| Normal | 400 jam | 480 GB | Rp700.000–Rp825.000 |
-| Tinggi | 800 jam | 960 GB | Rp900.000–Rp1.100.000 |
+| Skenario | Jam Tonton | Delivery Video | Biaya Video (klien) | Tanggungan Kami |
+| --- | ---: | ---: | ---: | ---: |
+| Rendah | 200 jam | 240 GB | Rp135.000–Rp145.000 | Rp439.000–Rp529.000 |
+| Normal | 400 jam | 480 GB | Rp265.000–Rp272.000 | Rp439.000–Rp529.000 |
+| Tinggi | 800 jam | 960 GB | Rp520.000–Rp540.000 | Rp439.000–Rp529.000 |
 
 ## Managed Service
 
-| Paket | Harga | Batas Video | Sisa pada Pemakaian Normal |
+| Paket | Harga | Tanggungan Kami | Sisa pada Pemakaian Normal |
 | --- | ---: | ---: | ---: |
-| Managed Basic | Rp1.000.000 | 250 GB/bulan | Rp199.000–Rp296.000 |
-| Managed Plus | Rp1.500.000 | 500 GB/bulan | Rp699.000–Rp796.000 |
+| Managed Basic | Rp1.000.000 | Rp439.000–Rp529.000 | Rp471.000–Rp561.000 |
+| Managed Plus | Rp1.500.000 | Rp439.000–Rp529.000 | Rp971.000–Rp1.061.000 |
 
-Kelebihan bandwidth video ditagihkan sesuai pemakaian. Biaya transaksi DOKU selalu di luar paket.
+Biaya video streaming selalu di luar paket dan ditagih langsung ke klien. Biaya transaksi DOKU juga selalu di luar paket.
 
 ## Kapan Harus Upgrade?
 

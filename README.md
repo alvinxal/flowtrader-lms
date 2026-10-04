@@ -8,7 +8,7 @@ Dokumentasi perencanaan LMS FlowTrader.
 | `docs/feature-list.md` | Daftar fitur MVP dan pembagian fitur wajib atau tambahan |
 | `docs/user-flow.md` | Alur member, skenario free tier dan pembeli, serta alur owner. Diagram ada di `docs/user-flow.drawio` |
 | `docs/tech-stack.md` | Pilihan teknologi, arsitektur, keamanan, dan pengujian |
-| `docs/daftar-modul-dan-harga.md` | Halaman penawaran untuk client: 13 modul, total proyek, dan paket managed service |
+| `docs/daftar-modul-dan-harga.md` | Halaman penawaran untuk client: 14 modul, total proyek, dan paket managed service |
 | `docs/estimasi-infrastruktur-100-member.md` | Estimasi biaya server, video, dan bandwidth |
 
 ## Dokumen untuk Client

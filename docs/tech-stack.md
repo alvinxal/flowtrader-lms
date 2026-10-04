@@ -77,7 +77,7 @@ Controller hanya menangani HTTP. Business rule berada di service dan query datab
 - Password menggunakan Argon2id.
 - Session disimpan dalam cookie `HttpOnly` dan `Secure`.
 - Role: `member`, `admin`, dan `owner`.
-- Entitlemen punya state `free`, `basic`, dan `mastery`. Akun `free` hanya bisa login, tidak mendapat materi maupun link Discord.
+- Entitlemen punya state `free`, `basic`, dan `mastery`. Akun `free` hanya bisa login, melihat daftar materi dan kurikulum yang terkunci, tidak mendapat materi maupun link Discord. Klik materi menampilkan prompt upgrade ke Basic atau Mastery.
 - Hak akses materi berdasarkan entitlemen paket.
 - Request perubahan data dilindungi CSRF dan rate limit.
 - HTTP Notification DOKU wajib diverifikasi dan idempotent.

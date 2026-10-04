@@ -8,7 +8,7 @@ Dijual per paket, bukan per kelas. Hanya ada 2 paket: Basic dan Mastery.
 flowchart LR
     A[Lihat paket] --> B[Daftar / login, isi form pendaftaran]
     B --> C{Sudah punya paket Basic/Mastery?}
-    C -- Tidak --> D[Akun gratis: member panel dan materi dikunci]
+    C -- Tidak --> D[Akun gratis: lihat kurikulum terkunci]
     D --> E[Pilih paket Basic / Mastery]
     E --> F[Checkout]
     F --> G[Email konfirmasi + link akses]
@@ -29,13 +29,13 @@ flowchart LR
 
 ## Skenario 1: user belum punya paket
 
-User bisa daftar dan login, tetapi tidak bisa mengakses member panel maupun materi. Akun gratis juga tidak menampilkan link Discord. Harus membeli Basic atau Mastery dulu. Akun gratis dibuat otomatis saat pendaftaran, tanpa persetujuan admin.
+User bisa daftar dan login, lalu melihat daftar materi dan kurikulum dengan status terkunci. Klik materi menampilkan prompt upgrade ke Basic atau Mastery. Akun gratis juga tidak menampilkan link Discord. Akun gratis dibuat otomatis saat pendaftaran, tanpa persetujuan admin.
 
 | No | Langkah | Fitur terkait |
 | --- | --- | --- |
 | 1 | Membuka halaman paket dan melihat detail Basic dan Mastery | Halaman paket dan detailnya |
-| 2 | Daftar atau login. Daftar manual mengisi nama, email, password, no HP, akun Discord. Daftar dengan Google cukup nama, no HP, akun Discord | Daftar dan masuk platform, Form pendaftaran, Akun gratis |
-| 3 | Mencoba membuka member panel atau materi, ditolak, dan diarahkan memilih Basic atau Mastery. Link Discord tidak ditampilkan | Pembatasan akses member panel, Akun gratis |
+| 2 | Daftar atau login. Daftar manual mengisi nama, email, password, no HP, akun Discord. Daftar dengan Google cukup nama, no HP, akun Discord | Daftar dan masuk platform, Form pendaftaran, Free Plan |
+| 3 | Melihat kurikulum yang terkunci, klik dan diminta upgrade ke Basic atau Mastery. Link Discord tidak ditampilkan | Free Plan, Pembatasan akses member panel |
 | 4 | Checkout dan membayar | Checkout Payment Gateway (DOKU) |
 | 5 | Menerima email berisi konfirmasi pembayaran dan link akses platform (langsung ke platform) | Email konfirmasi pembayaran + link akses platform |
 | 6 | Membuka link dan melihat welcome screen sebelum masuk member panel | Welcome screen setelah membeli paket |
