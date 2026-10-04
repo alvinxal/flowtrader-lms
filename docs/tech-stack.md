@@ -13,6 +13,8 @@
 | Cache dan queue | Redis + BullMQ | Cache dan background job |
 | Authentication | Session cookie + Google OAuth | Login manual dan Google |
 | Payment | DOKU Checkout | Checkout dan HTTP Notification |
+
+Landing page saat ini memakai Mayar, sedangkan LMS memakai DOKU. Kanal pembayaran tunggal harus disepakati sebelum development.
 | Video | Bunny Stream | CDN video, token URL, dan DRM opsional |
 | File dan backup | Cloudflare R2 | Sertifikat, gambar, dan backup |
 | Email | Resend atau Brevo | Email transaksional |
@@ -75,7 +77,8 @@ Controller hanya menangani HTTP. Business rule berada di service dan query datab
 - Password menggunakan Argon2id.
 - Session disimpan dalam cookie `HttpOnly` dan `Secure`.
 - Role: `member`, `admin`, dan `owner`.
-- Hak akses materi berdasarkan entitlement paket.
+- Entitlemen punya state `free`, `basic`, dan `mastery`. Akun `free` hanya bisa login, tidak mendapat materi maupun link Discord.
+- Hak akses materi berdasarkan entitlemen paket.
 - Request perubahan data dilindungi CSRF dan rate limit.
 - HTTP Notification DOKU wajib diverifikasi dan idempotent.
 - Temporary video token memiliki masa berlaku pendek.
@@ -108,7 +111,7 @@ Database tidak diekspos ke internet. Backup PostgreSQL dikirim ke R2 dan migrati
 - End-to-end: Playwright.
 - Contract: validasi OpenAPI.
 
-Alur utama: login, pembayaran DOKU, entitlement, upgrade paket, video token, progress, sertifikat, dan akses admin.
+Alur utama: registrasi akun gratis, login, pembayaran DOKU, entitlement, upgrade paket, video token, progress, sertifikat, dan akses admin.
 
 ## Tidak Digunakan pada MVP
 

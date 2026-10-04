@@ -6,6 +6,7 @@
 | --- | --- |
 | Member terdaftar | 100 akun |
 | Member aktif bulanan | 50–70 akun |
+| Akun gratis (belum membeli paket) | tidak dihitung sebagai member aktif |
 | Pengguna bersamaan | 5–10; lonjakan maksimal 15 |
 | VPS | Biznet Gio NEO Lite MM 8.4 |
 | Video | Bunny Stream Standard Asia |
@@ -64,7 +65,7 @@ Bunny Stream dipilih karena lebih ekonomis. Watermark identitas pengguna dibuat 
 | Cadangan kurs/pemakaian | Rp70.000–Rp135.000 |
 | **Total** | **Rp704.000–Rp801.000/bulan** |
 
-Biaya transaksi DOKU tidak termasuk karena mengikuti perjanjian merchant.
+Biaya transaksi DOKU tidak termasuk karena mengikuti perjanjian merchant. Landing page saat ini memakai Mayar, jadi biaya transaksi dari kanal Mayar juga di luar estimasi ini.
 
 ## Skenario Pemakaian
 

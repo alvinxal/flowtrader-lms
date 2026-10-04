@@ -8,7 +8,7 @@ Dijual per paket, bukan per kelas. Hanya ada 2 paket: Basic dan Mastery.
 flowchart LR
     A[Lihat paket] --> B[Daftar / login, isi form pendaftaran]
     B --> C{Sudah punya paket Basic/Mastery?}
-    C -- Tidak --> D[Akses member panel ditolak]
+    C -- Tidak --> D[Akun gratis: member panel dan materi dikunci]
     D --> E[Pilih paket Basic / Mastery]
     E --> F[Checkout]
     F --> G[Email konfirmasi + link akses]
@@ -29,14 +29,14 @@ flowchart LR
 
 ## Skenario 1: user belum punya paket
 
-User bisa login dan daftar, tetapi tidak bisa mengakses member panel. Harus membeli Basic atau Mastery dulu.
+User bisa daftar dan login, tetapi tidak bisa mengakses member panel maupun materi. Akun gratis juga tidak menampilkan link Discord. Harus membeli Basic atau Mastery dulu. Akun gratis dibuat otomatis saat pendaftaran, tanpa persetujuan admin.
 
 | No | Langkah | Fitur terkait |
 | --- | --- | --- |
 | 1 | Membuka halaman paket dan melihat detail Basic dan Mastery | Halaman paket dan detailnya |
-| 2 | Daftar atau login. Daftar manual mengisi nama, email, password, no HP, akun Discord. Daftar dengan Google cukup nama, no HP, akun Discord | Daftar dan masuk platform, Form pendaftaran |
-| 3 | Mencoba membuka member panel, ditolak, dan diarahkan memilih Basic atau Mastery | Pembatasan akses member panel |
-| 4 | Checkout dan membayar | Checkout Payment Gateway |
+| 2 | Daftar atau login. Daftar manual mengisi nama, email, password, no HP, akun Discord. Daftar dengan Google cukup nama, no HP, akun Discord | Daftar dan masuk platform, Form pendaftaran, Akun gratis |
+| 3 | Mencoba membuka member panel atau materi, ditolak, dan diarahkan memilih Basic atau Mastery. Link Discord tidak ditampilkan | Pembatasan akses member panel, Akun gratis |
+| 4 | Checkout dan membayar | Checkout Payment Gateway (DOKU) |
 | 5 | Menerima email berisi konfirmasi pembayaran dan link akses platform (langsung ke platform) | Email konfirmasi pembayaran + link akses platform |
 | 6 | Membuka link dan melihat welcome screen sebelum masuk member panel | Welcome screen setelah membeli paket |
 
@@ -46,7 +46,7 @@ User bisa login dan daftar, tetapi tidak bisa mengakses member panel. Harus memb
 | --- | --- | --- |
 | 1 | Masuk ke member panel | Pembatasan akses member panel |
 | 2 | Melihat paket saya dan list kelas di dalamnya | Paket saya dan riwayat pembelian |
-| 3 | Masuk ke Discord lewat link | Link join Discord/Slack/Telegram, Notifikasi Platform |
+| 3 | Masuk ke Discord lewat link, sesuai masa berlaku paket | Link join Discord, Notifikasi Platform |
 | 4 | Belajar: menonton video yang terlindungi dan lanjut dari video terakhir | Halaman utama pembelajaran, Streaming Management, Temporary URL Video, Watermark secara dinamis, Video terakhir diakses |
 | 5 | (Paket Basic) Modul Mastery diblur atau dikunci. Perlu bayar untuk membuka | Modul terkunci (blur/lock), Upgrade: paket Basic → paket Mastery |
 | 6 | Setelah seluruh materi paket selesai dipelajari, member mendapat sertifikat. Selama belum selesai, member lanjut belajar | Sertifikat |
@@ -79,7 +79,7 @@ flowchart LR
 | 3 | Mengisi kelas dan bab, lalu mengunggah video | Kelola paket, kelas, video, dan harga |
 | 4 | Menentukan modul Mastery yang terkunci untuk paket Basic | Modul terkunci (blur/lock) untuk paket Basic |
 | 5 | Mengatur template sertifikat | Kelola template sertifikat |
-| 6 | Mengisi link komunitas (Discord/Slack/Telegram) | Kelola link komunitas |
+| 6 | Mengisi link komunitas Discord | Kelola link komunitas |
 | 7 | Mempublikasikan paket | Halaman paket dan detailnya |
 
 **Operasional (berulang)**

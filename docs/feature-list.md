@@ -6,7 +6,7 @@ Dijual per paket, bukan per kelas. Hanya ada 2 paket: Basic dan Mastery.
 
 ### 1. Penjualan dan pembayaran
 - Halaman paket dan detailnya
-- Checkout Payment Gateway
+- Checkout Payment Gateway (DOKU)
 - Paket sekali bayar
 - Akses paket setelah bayar
 - Email konfirmasi pembayaran + link akses platform
@@ -14,6 +14,7 @@ Dijual per paket, bukan per kelas. Hanya ada 2 paket: Basic dan Mastery.
 ### 2. Membership
 - Daftar dan masuk platform (manual atau Google)
 - Form pendaftaran: manual (nama, email, password, no HP, akun Discord) atau Google (nama, no HP, akun Discord)
+- Akun gratis: bisa daftar dan login, tetapi tidak bisa mengakses materi dan tidak mendapat link Discord
 - Welcome screen setelah membeli paket
 - Pembatasan akses member panel (hanya pemilik paket Basic/Mastery)
 - Paket saya dan riwayat pembelian
@@ -38,8 +39,8 @@ Dijual per paket, bukan per kelas. Hanya ada 2 paket: Basic dan Mastery.
 - Ringkasan penjualan
 
 ### 5. Komunitas dan notifikasi
-- Link join Discord/Slack/Telegram
-- Kelola link komunitas (Discord/Slack/Telegram)
+- Link join Discord
+- Kelola link komunitas Discord
 - Notifikasi Platform
 - Kelola notifikasi platform (admin)
 
@@ -50,13 +51,14 @@ Dijual per paket, bukan per kelas. Hanya ada 2 paket: Basic dan Mastery.
 <tbody>
 <tr><td colspan="3" align="center"><b>Penjualan dan pembayaran</b></td></tr>
 <tr><td>Halaman paket dan detailnya</td><td align="center">✓</td><td></td></tr>
-<tr><td>Checkout Payment Gateway</td><td align="center">✓</td><td></td></tr>
+<tr><td>Checkout Payment Gateway (DOKU)</td><td align="center">✓</td><td></td></tr>
 <tr><td>Paket sekali bayar</td><td align="center">✓</td><td></td></tr>
 <tr><td>Akses paket setelah bayar</td><td align="center">✓</td><td></td></tr>
 <tr><td>Email konfirmasi pembayaran + link akses platform</td><td align="center">✓</td><td></td></tr>
 <tr><td colspan="3" align="center"><b>Membership</b></td></tr>
 <tr><td>Daftar dan masuk platform (manual atau Google)</td><td align="center">✓</td><td></td></tr>
 <tr><td>Form pendaftaran: manual (nama, email, password, no HP, akun Discord) atau Google (nama, no HP, akun Discord)</td><td align="center">✓</td><td></td></tr>
+<tr><td>Akun gratis: bisa daftar dan login, tetapi tidak bisa mengakses materi dan tidak mendapat link Discord</td><td align="center">✓</td><td></td></tr>
 <tr><td>Welcome screen setelah membeli paket</td><td></td><td align="center">✓</td></tr>
 <tr><td>Pembatasan akses member panel (hanya pemilik paket Basic/Mastery)</td><td align="center">✓</td><td></td></tr>
 <tr><td>Paket saya dan riwayat pembelian</td><td align="center">✓</td><td></td></tr>
@@ -78,8 +80,8 @@ Dijual per paket, bukan per kelas. Hanya ada 2 paket: Basic dan Mastery.
 <tr><td>Popup promo</td><td></td><td align="center">✓</td></tr>
 <tr><td>Ringkasan penjualan</td><td></td><td align="center">✓</td></tr>
 <tr><td colspan="3" align="center"><b>Komunitas dan notifikasi</b></td></tr>
-<tr><td>Link join Discord/Slack/Telegram</td><td align="center">✓</td><td></td></tr>
-<tr><td>Kelola link komunitas (Discord/Slack/Telegram)</td><td align="center">✓</td><td></td></tr>
+<tr><td>Link join Discord</td><td align="center">✓</td><td></td></tr>
+<tr><td>Kelola link komunitas Discord</td><td align="center">✓</td><td></td></tr>
 <tr><td>Notifikasi Platform</td><td align="center">✓</td><td></td></tr>
 <tr><td>Kelola notifikasi platform (admin)</td><td align="center">✓</td><td></td></tr>
 </tbody>
